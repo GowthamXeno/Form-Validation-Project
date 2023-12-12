@@ -14,80 +14,79 @@
 <body>
     <div class="container">
         <H2 class="Heading">User Registration Form</H2>
-        <form class="form-content" id="Registration-form" onsubmit="return Form()">
+        <form class="form-content" id="Registration-form" onsubmit="return Form()" novalidate>
             <label>Username</label>
             <div class="input-container">
-                <i class="fa-solid fa-user"></i>
-                <input type="text" placeholder="Enter Username">
+                <i id="usernameicon" class="fa-solid fa-user error-icon"></i>
+                <input type="text" placeholder="Enter Username" id="username">
             </div>
-            <div class="error-container">
+            <div class="name-error-container error_container">
                 <i class="fa-solid fa-circle-exclamation"></i>
                 <span id="nameError" class="error"></span>
-            <div>
+            </div>
             <label>Email</label>
             <div class="input-container">
                 <i class="fa-solid fa-envelope"></i>
-                <input type="email" placeholder="Enter Email">
+                <input type="email" placeholder="Enter Email" id="email" >
             </div>
-            <div class="error-container">
+            <div class="email-error-container error_container">
                 <i class="fa-solid fa-circle-exclamation"></i>
                 <span id="emailError"class="error"></span>
-            </div>
             </div>
             <label>Phone Number</label>
             <div class="input-container">
                 <i class="fa-solid fa-phone"></i>
-                <input type="tel" placeholder="Enter phone number">
+                <input type="tel" placeholder="Enter phone number" id="number">
             </div>
-            <div class="error-container">
+            <div class="number-error-container error_container">
                 <i class="fa-solid fa-circle-exclamation"></i>
                 <span id="numberError" class="error"></span>
-            <div>
+            </div>
             <label for="gender">Gender</label>
             <div class="input-container" >
                 <i class="fa-regular fa-user"></i>
 
-                    <select id="gender" name="gender" required>
+                    <select id="gender" name="gender" >
                         <option value="" selected disabled>Select Gender</option>
                         <option value="male">Male</option>
                         <option value="female">Female</option>
                         <option value="notSpecified">Prefer Not to Say</option>
                     </select>
             </div> 
-            <div class="error-container">
+            <div class="gender-error-container error_container">
                 <i class="fa-solid fa-circle-exclamation"></i>
                 <span id="genderError" class="error"></span>
-            <div>
+            </div>
             <label>Date of Birth</label>
             <div class="input-container">
                 <i class="fa-solid fa-cake-candles"></i>
-                <input type="date" placeholder="Enter Date of Birth">
+                <input type="date" placeholder="Enter Date of Birth" id="dob" min="1950-01-01" max="2050-01-01">
             </div>
-            <div class="error-container">
+            <div class="dob-error-container error_container">
                 <i class="fa-solid fa-circle-exclamation"></i>
                 <span id="dobError" class="error"></span>
-            <div>
+            </div>
             <label>Password</label>
             <div class="input-container">
                 <i class="fa-solid fa-key"></i>
-                <input type="password" placeholder="Enter Password">
+                <input type="password" placeholder="Enter Password" id="password">
             </div>
-            <div class="error-container">
+            <div class="password-error-container error_container">
                 <i class="fa-solid fa-circle-exclamation"></i>
                 <span id="passwordError" class="error"></span>
-            <div>
+            </div>
             <label>Confirm Password</label>
             <div class="input-container">
                 <i class="fa-solid fa-key"></i>
-                <input type="password" placeholder="Enter Confirm Password">
+                <input type="password" placeholder="Enter Confirm Password" id="confirmpassword">
             </div>
-            <div class="error-container">
+            <div class="confirmpassword-error-container error_container">
                 <i class="fa-solid fa-circle-exclamation"></i>
                 <span id="confirmpasswordError" class="error"></span>
-            <div>
+            </div>
             <input type="submit" class="Submit-button">
-        </form>
+          </form>
     </div>
-    <script src="script.js"></script>
+      <script defer src="script.js"></script>
 </body>
 </html>
