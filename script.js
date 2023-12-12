@@ -28,7 +28,7 @@ function Form() {
         error_container.style.display = 'none';
     }
     
-    { //Username
+    //Username
         if(name === ''){
             showerror('name', 'Please Enter Username!');
         }else{
@@ -38,8 +38,8 @@ function Form() {
                 hideerror('name');
             }
         }
-    }
-    { //Email
+    
+    //Email
         var condition = /@.*\./;
         if(email ===''){
             showerror('email', 'Please Enter email!');
@@ -55,9 +55,9 @@ function Form() {
                 hideerror('email');
             }
         } 
-    }  
-    {//Number
-        var condition = /^\d{10}$/
+     
+    //Number
+        var numbercondition = /^\d{10}$/
         if(number === '')
             showerror('number', 'Please Enter Number!');
         else{
@@ -68,38 +68,49 @@ function Form() {
                 hideerror('number');
             }
         }
-    }
-    {//Gender
+
+    //Gender
         if(gender === '')
             showerror('gender', 'Please Select Gender!');
         else
             hideerror('gender');
-    }
-    {//Dob
+    
+    //Dob
         if(dob === '')
             showerror('dob', 'Please Select Gender!');
         else{
             hideerror('dob');
         }
-    }
-    {//Password
+    
+    //Password
         if(password === '')
             showerror('password', 'Please Enter Password!');
         else{
-            if(password !== confirmpassword){
-                showerror('confirmpassword','Password must match with the confirm password');
+            if(password.toLowerCase() === 'password'){
+                console.log(password.toLowerCase()+'!== password');
+                console.log(password.toLowerCase()+'!=='+name.toLowerCase());
+                showerror('password','Password cannot be ‘password’');
+            }
+            else if(password.toLowerCase() === name.toLowerCase()){
+                showerror('password','Password cannot be ‘name of the user’');
             }
             else{
-            hideerror('password');
-            }
+                    hideerror('password');
+                }
         }
-    }
-    {//Confirmpassword
-        if(confirmpassword === '')
-            showerror('confirmpassword', 'Please Enter Confirm Password!');
-        else{
-            hideerror('confirmpassword');
+        //Confirmpassword
+            if(confirmpassword === '')
+                showerror('confirmpassword', 'Please Enter Confirm Password!');
+            else{
+                if(password !== confirmpassword){
+                    showerror('confirmpassword','Password must match with the confirm password');
+                }
+                else{
+                hideerror('confirmpassword');
+                }
+            
             }
+    
         
-    }
+    
 }
