@@ -13,7 +13,9 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    /* color:rgba(21, 255, 0, 0.822) */
+    background-color: rgba(0, 0, 0, 0.30);
+    background-blend-mode: overlay;
+    overflow-y: auto;
 }
 
 .Heading{
@@ -49,6 +51,10 @@ input:focus {
 .input-container{
     position: relative;
     margin-bottom: 6px;
+}
+.form-container{
+    margin-top: 70px;
+    margin-bottom:50px;
 }
 .input-container i{
         position:absolute;
