@@ -1,6 +1,6 @@
 function Form() {
     event.preventDefault();
-    var name = document.getElementById('username').value.trim();
+    var username = document.getElementById('username').value.trim();
     var email = document.getElementById('email').value.trim();
     var number = document.getElementById('number').value.trim();
     var gender = document.getElementById('gender').value.trim();
@@ -29,13 +29,13 @@ function Form() {
     }
     
     //Username
-        if(name === ''){
-            showerror('name', 'Please Enter Username!');
+        if(username === ''){
+            showerror('username', 'Please Enter Username!');
         }else{
-            if (name.length < 5) {
-                showerror('name', 'Name must be at least 5 characters');
+            if (username.length < 5) {
+                showerror('username', 'Name must be at least 5 characters');
             } else {
-                hideerror('name');
+                hideerror('username');
             }
         }
     
@@ -61,7 +61,7 @@ function Form() {
         if(number === '')
             showerror('number', 'Please Enter Number!');
         else{
-            if(number.length < 10 || number === '123456789' || number.length > 10){
+            if(number.length < 10 || number === '123456789' || !numbercondition.test(number)){
                 showerror('number','Enter a Valid Number!');
             }
             else{
@@ -88,29 +88,56 @@ function Form() {
         else{
             if(password.toLowerCase() === 'password'){
                 console.log(password.toLowerCase()+'!== password');
-                console.log(password.toLowerCase()+'!=='+name.toLowerCase());
+                console.log(password.toLowerCase()+'!=='+username.toLowerCase());
                 showerror('password','Password cannot be ‘password’');
             }
-            else if(password.toLowerCase() === name.toLowerCase()){
+            else if(password.toLowerCase() === username.toLowerCase()){
                 showerror('password','Password cannot be ‘name of the user’');
+            }
+            else if(password.length < 8){
+                showerror('password','Password must be at least 8 characters')
             }
             else{
                     hideerror('password');
                 }
         }
-        //Confirmpassword
-            if(confirmpassword === '')
-                showerror('confirmpassword', 'Please Enter Confirm Password!');
-            else{
-                if(password !== confirmpassword){
-                    showerror('confirmpassword','Password must match with the confirm password');
-                }
-                else{
-                hideerror('confirmpassword');
-                }
-            
+    
+    //Confirmpassword
+        if(confirmpassword === '')
+            showerror('confirmpassword', 'Please Enter Confirm Password!');
+        else{
+            if(password !== confirmpassword){
+                showerror('confirmpassword','Password must match with the confirm password');
             }
-    
+            else{
+            hideerror('confirmpassword');
+            }
         
-    
+        }
+    //submit
+        var isValid = true;
+        document.querySelectorAll('.error_container').forEach(function (errorContainer) {
+            if (errorContainer.style.display === 'flex') {
+                isValid = false;
+        }
+    });
+        if(isValid){
+            var toast = document.getElementById('toast');
+            toast.classList.add('show');
+            clearForm();
+            setTimeout(function () {
+                toast.classList.remove('show');
+            }, 2000);
+        }
+        function clearForm() {
+            document.getElementById('username').value = '';
+            document.getElementById('email').value = '';
+            document.getElementById('number').value = '';
+            document.getElementById('gender').value = '';
+            document.getElementById('password').value = '';
+            document.getElementById('confirmpassword').value = '';
+            document.getElementById('dob').value = '';
+        }
+        
+        
 }

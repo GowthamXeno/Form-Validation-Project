@@ -13,6 +13,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    /* color:rgba(21, 255, 0, 0.822) */
 }
 
 .Heading{
@@ -39,9 +40,6 @@ input{
     border-radius:4px;
     background-color:rgba(255, 255, 255, 0.29);
 }
-label{
-    bottom: 5px;
-}
 input:focus {
     outline: 1.5px solid black; /* Adjust the thickness and color as needed */
 }
@@ -66,7 +64,7 @@ input:focus {
 .Submit-button{
     transition: 0.2s;
     border:#5de163;
-    background-color:#107703;
+    background-color:#36b725;
     outline: rgb(30, 255, 0);
     cursor: pointer;
 
@@ -95,4 +93,31 @@ input[type="submit"]:hover {
 .error_container span{
     margin-left: 4px;
     margin-top:2.3px;
+}
+
+.toast{
+    position:absolute;
+    right: 50px;;
+    bottom: 70px;
+    border:2px solid #00ff00;
+    border-radius: 15px;
+    padding: 22px;
+    background-color: #24c60f;
+    color : white;
+    font-size: 18px;
+    box-shadow: 7px 7px 10px rgba(0, 0, 0, 1);
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    pointer-events: none;
+}
+.toast.show{
+    opacity: 1;
+}
+@media only screen and (max-width:980px){
+    .toast{
+        right:50%;
+        bottom:50%;
+        transform: translate(50%, 50%);
+
+    }
 }
