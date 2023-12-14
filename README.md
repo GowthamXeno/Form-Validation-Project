@@ -1,6 +1,28 @@
-# User Registration Form
+<h1 align="center" id="title">User Form Validation</h1>
 
-![Form Preview](link_to_an_image_of_the_form_preview.png)
+<p align="center"><img src="https://socialify.git.ci/GowthamXeno/Form-Validation-Project/image?font=Rokkitt&amp;logo=https%3A%2F%2Fvisualpharm.com%2Fassets%2F169%2FUser%2520Menu%2520Male-595b40b85ba036ed117dc950.svg&amp;name=1&amp;owner=1&amp;pattern=Plus&amp;theme=Light" alt="project-image"></p>
+
+<p id="description">Dynamic and responsive user registration form with client-side validation using HTML CSS and JavaScript. Capture essential user information validate inputs in real-time and provide helpful error messages for incorrect data.</p>
+
+## 🪡Demo
+Experience the interactive user registration form in action by [viewing the live demo](https://github.com/GowthamXeno/Form-Validation-Project).
+
+
+## Technologies Used
+
+- <img src="html.png" alt="html" width="15" height="15" align="bottom"> **HTML5:** For structuring the form.
+- <img src="css-3.png" alt="css" width="15" height="15" align="bottom"> **CSS3:** For styling and layout.
+- <img src="js.png" alt="javascript" width="15" height="15" align="bottom"> **JavaScript:** For client-side form validation and interaction.
+
+
+
+
+<h2>Project Screenshots:</h2>
+
+
+<img src="Submit.png" alt="project-screenshot" width="700" height="400/">
+
+<img src="sserror.png" alt="project-screenshot" width="700" height="400/">
 
 ## Overview
 
@@ -19,12 +41,9 @@ Create a dynamic and responsive user registration form with client-side validati
 
 ## How to Use
 
-1. Clone the repository: `git clone https://github.com/your-username/registration-form.git`
+1. Clone the repository: `git clone https://github.com/GowthamXeno/registration-form.git`
 2. Open `index.html` in your web browser.
 
-## License
-
-This project is licensed under the [MIT License](LICENSE).
 
 ## Acknowledgments
 
@@ -33,4 +52,12 @@ This project is licensed under the [MIT License](LICENSE).
 
 ---
 
-Happy coding!
+
+## Queries
+
+Have a question or feedback? Feel free to reach out!
+
+<!-- Instagram Image and Link on the Same Line -->
+<img src="instagram.png" alt="Your Instagram Image" height="12" style="margin-top:; margin-right: 5px;">
+<a href="https://www.instagram.com/gowthamxeno/" target="_blank">gowthamxeno</a>
+
