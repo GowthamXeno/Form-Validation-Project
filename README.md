@@ -24,7 +24,7 @@ Experience the interactive user registration form in action by [viewing the live
 
 <img src="https://i.imgur.com/OQAfv8L.jpg" alt="project-screenshot" width="700" height="400/">
 
-## 🪡Overview
+## 🪡Objective
 
 Create a dynamic and responsive user registration form with client-side validation using HTML, CSS, and JavaScript. The form captures essential user information and validates it in real-time, providing helpful error messages for incorrect inputs.
 
