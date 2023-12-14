@@ -8,7 +8,7 @@
 Experience the interactive user registration form in action by [viewing the live demo](https://gowthamxeno.github.io/Form-Validation-Project/).
 
 
-## Technologies Used
+## 🪡Technologies Used
 
 - <img src="https://i.imgur.com/w6YVQoP.png" alt="html" width="20"  style="vertical-align: text-bottom;"> **HTML5:** For structuring the form.
 - <img src="https://i.imgur.com/TSNVLC2.png" alt="css" width="20" style="vertical-align: text-bottom;"> **CSS3:** For styling and layout.
@@ -24,11 +24,11 @@ Experience the interactive user registration form in action by [viewing the live
 
 <img src="https://i.imgur.com/OQAfv8L.jpg" alt="project-screenshot" width="700" height="400/">
 
-## Overview
+## 🪡Overview
 
 Create a dynamic and responsive user registration form with client-side validation using HTML, CSS, and JavaScript. The form captures essential user information and validates it in real-time, providing helpful error messages for incorrect inputs.
 
-## Features
+## 🪡Features
 
 - **User-friendly Interface:** Easy-to-navigate form with clear labels and input fields.
 - **Real-time Validation:** Instant feedback on user input, ensuring correctness and preventing errors.
@@ -39,13 +39,13 @@ Create a dynamic and responsive user registration form with client-side validati
 - **Submit Button:** A stylish submit button with hover effects for a polished look.
 - **Success Notification:** A subtle toast notification confirming successful form submission.
 
-## How to Use
+## 🪡How to Use
 
 1. Clone the repository: `git clone https://github.com/GowthamXeno/registration-form.git`
 2. Open `index.html` in your web browser.
 
 
-## Acknowledgments
+## 🪡Acknowledgments
 
 - Icons from [FontAwesome](https://fontawesome.com/).
 - Fonts from [Google Fonts](https://fonts.google.com/).
@@ -53,7 +53,7 @@ Create a dynamic and responsive user registration form with client-side validati
 ---
 
 
-## Queries
+## 🪡Queries
 
 Have a question or feedback? Feel free to reach out!
 
