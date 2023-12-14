@@ -77,7 +77,7 @@ function Form() {
     
     //Dob
         if(dob === '')
-            showerror('dob', 'Please Select Gender!');
+            showerror('dob', 'Please Enter Date of Birth!');
         else{
             hideerror('dob');
         }
