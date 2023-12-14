@@ -10,7 +10,7 @@ Experience the interactive user registration form in action by [viewing the live
 
 ## Technologies Used
 
-- <img src="html.png" alt="html" width="15" height="15" align="bottom"> **HTML5:** For structuring the form.
+- <img src="https://raw.githubusercontent.com/GowthamXeno/Form-Validation-Project/main/html.png" alt="html" width="15" height="15" align="bottom"> **HTML5:** For structuring the form.
 - <img src="css-3.png" alt="css" width="15" height="15" align="bottom"> **CSS3:** For styling and layout.
 - <img src="js.png" alt="javascript" width="15" height="15" align="bottom"> **JavaScript:** For client-side form validation and interaction.
 
