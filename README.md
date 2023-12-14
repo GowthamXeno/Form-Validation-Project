@@ -10,9 +10,9 @@ Experience the interactive user registration form in action by [viewing the live
 
 ## Technologies Used
 
-- <img src="html.png" alt="html" width="15" height="15" align="bottom"> **HTML5:** For structuring the form.
-- <img src="css-3.png" alt="css" width="15" height="15" align="bottom"> **CSS3:** For styling and layout.
-- <img src="js.png" alt="javascript" width="15" height="15" align="bottom"> **JavaScript:** For client-side form validation and interaction.
+- <img src="https://i.imgur.com/w6YVQoP.png" alt="html" width="15" height="15" align="bottom"> **HTML5:** For structuring the form.
+- <img src="https://i.imgur.com/TSNVLC2.png" alt="css" width="15" height="15" align="bottom"> **CSS3:** For styling and layout.
+- <img src="https://i.imgur.com/f5Gx5wf.png" alt="javascript" width="15" height="15" align="bottom"> **JavaScript:** For client-side form validation and interaction.
 
 
 
@@ -58,6 +58,6 @@ Create a dynamic and responsive user registration form with client-side validati
 Have a question or feedback? Feel free to reach out!
 
 <!-- Instagram Image and Link on the Same Line -->
-<img src="instagram.png" alt="Your Instagram Image" height="12" style="margin-top:; margin-right: 5px;">
+<img src="https://i.imgur.com/Jr9E7c9.png" alt="Your Instagram Image" height="12" style="margin-top:; margin-right: 5px;">
 <a href="https://www.instagram.com/gowthamxeno/" target="_blank">gowthamxeno</a>
 
