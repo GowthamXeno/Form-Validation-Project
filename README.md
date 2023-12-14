@@ -58,6 +58,6 @@ Create a dynamic and responsive user registration form with client-side validati
 Have a question or feedback? Feel free to reach out!
 
 <!-- Instagram Image and Link on the Same Line -->
-<img src="https://imgur.com/Jr9E7c9" alt="Your Instagram Image" height="12" style="margin-top:; margin-right: 5px;">
+<img src="https://i.imgur.com/Jr9E7c9.png" alt="Your Instagram Image" height="12" style="margin-top:; margin-right: 5px;">
 <a href="https://www.instagram.com/gowthamxeno/" target="_blank">gowthamxeno</a>
 
