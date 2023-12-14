@@ -5,7 +5,7 @@
 <p id="description">Dynamic and responsive user registration form with client-side validation using HTML CSS and JavaScript. Capture essential user information validate inputs in real-time and provide helpful error messages for incorrect data.</p>
 
 ## 🪡Demo
-Experience the interactive user registration form in action by [viewing the live demo](https://github.com/GowthamXeno/Form-Validation-Project).
+Experience the interactive user registration form in action by [viewing the live demo](https://gowthamxeno.github.io/Form-Validation-Project/).
 
 
 ## Technologies Used
