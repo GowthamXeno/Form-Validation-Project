@@ -1,3 +1,5 @@
+/* CSS styles for the form UI */
+
 *{
     margin:0px;
     padding:0px;
@@ -5,6 +7,8 @@
     font-family: 'Dosis', sans-serif;
     font-family: 'Josefin Sans', sans-serif;
 }
+
+/* Body styling and background image */
 body{
     background-image: url(Due\ 2.jpg);
     background-size: cover;
@@ -18,11 +22,14 @@ body{
     overflow-y: auto;
 }
 
+/* Heading Styling */
 .Heading{
     margin-bottom: 20px;
     color:#ffffff;
     text-align: center;
 }
+
+/* Form Container Styling */
 .form-content{
     display: flex;
     flex-direction: column;
@@ -38,6 +45,13 @@ body{
 .form-content label{
         margin-bottom:-6px;
 }
+.form-container{
+    margin-top: 70px;
+    margin-bottom:50px;
+}
+
+
+/* Input Field Styling */
 input{
     width:100%;
     padding: 5px;
@@ -52,10 +66,6 @@ input:focus {
     position: relative;
     margin-bottom: 6px;
 }
-.form-container{
-    margin-top: 70px;
-    margin-bottom:50px;
-}
 .input-container i{
         position:absolute;
         left:8px;
@@ -65,21 +75,23 @@ input:focus {
 }
 .input-container input,
 #gender{
-    padding: 7px 10px 5px 35px;
-    border: 1px solid rgb(53, 253, 9);
-    border-radius: 4px;
-    background-color: rgba(255, 255, 255, 0.29);
+        padding: 7px 10px 5px 35px;
+        border: 1px solid rgb(53, 253, 9);
+        border-radius: 4px;
+        background-color: rgba(255, 255, 255, 0.29);
 }
+
 #dob{  
-    width:175px;
+        width:175px;
 }
+
+/* Submit Button Styling */
 .Submit-button{
     transition: 0.2s;
     border:#5de163;
     background-color:#36b725;
     outline: rgb(30, 255, 0);
     cursor: pointer;
-
 }
 input[type="submit"]:hover {
     background-color: #39f85f;
@@ -89,42 +101,46 @@ input[type="submit"]:hover {
     outline: 2px solid rgb(30, 255, 0);
 }
 
-
+/* Error container styles */
 .error_container{
-    color:red;
-    display: none;
-    align-items: center;
-    font-size:12px;
-    margin-left: 9px;
-    margin-top:-7px;
-
+        color:red;
+        display: none;
+        align-items: center;
+        font-size:12px;
+        margin-left: 9px;
+        margin-top:-7px;
 }
 .error_container i{
-    font-size: 13px;
+        font-size: 13px;
 }
 .error_container span{
     margin-left: 4px;
     margin-top:2.3px;
 }
 
+/* Toast Notification Styling */
 .toast{
-    position:absolute;
-    right: 50px;;
-    bottom: 70px;
-    border:2px solid #00ff00;
-    border-radius: 15px;
-    padding: 22px;
-    background-color: #24c60f;
-    color : white;
-    font-size: 18px;
-    box-shadow: 7px 7px 10px rgba(0, 0, 0, 1);
-    opacity: 0;
-    transition: opacity 0.3s ease-in-out;
-    pointer-events: none;
+
+        position:absolute;
+        right: 50px;;
+        bottom: 70px;
+        border:2px solid #00ff00;
+        border-radius: 15px;
+        padding: 22px;
+        background-color: #24c60f;
+        color : white;
+        font-size: 18px;
+        box-shadow: 7px 7px 10px rgba(0, 0, 0, 1);
+        opacity: 0;
+        transition: opacity 0.3s ease-in-out;
+        pointer-events: none;
 }
+
 .toast.show{
     opacity: 1;
 }
+
+/* Responsible Toast Notification */
 @media only screen and (max-width:980px){
     .toast{
         right:50%;
