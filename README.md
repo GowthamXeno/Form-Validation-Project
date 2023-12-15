@@ -5,7 +5,7 @@
 <p id="description">Dynamic and responsive user registration form with client-side validation using HTML CSS and JavaScript. Capture essential user information validate inputs in real-time and provide helpful error messages for incorrect data.</p>
 
 ## 🪡Demo
-Experience the interactive user registration form in action by [viewing the live demo](https://gowthamxeno.github.io/Form-Validation-Project/).
+Experience the interactive user registration form in action by [viewing the live demo](https://gowthamxeno.github.io/Form-Validation-Project/){:target="_blank"}.
 
 
 ## 🪡Technologies Used
@@ -46,8 +46,8 @@ Create a dynamic and responsive user registration form with client-side validati
 
 ## 🪡Acknowledgments
 
-- Icons from [FontAwesome](https://fontawesome.com/).
-- Fonts from [Google Fonts](https://fonts.google.com/).
+- Icons from [FontAwesome](https://fontawesome.com/){:target="_blank"}.
+- Fonts from [Google Fonts](https://fonts.google.com/){:target="_blank"}.
 
 ---
 
@@ -57,5 +57,5 @@ Create a dynamic and responsive user registration form with client-side validati
 Have a question or feedback? Feel free to reach out!
 
 <!-- Instagram Image and Link on the Same Line -->
-<img src="https://i.imgur.com/Jr9E7c9.png" alt="Your Instagram Image" height="20" style="vertical-align: text-bottom;"> [**Gowthamxeno**](https://www.instagram.com/gowthamxeno/)
+<img src="https://i.imgur.com/Jr9E7c9.png" alt="Your Instagram Image" height="20" style="vertical-align: text-bottom;"> [**Gowthamxeno**](https://www.instagram.com/gowthamxeno/){:target="_blank"}
 
