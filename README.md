@@ -20,9 +20,8 @@ Experience the interactive user registration form in action by [viewing the live
 <h2>Project Screenshots:</h2>
 
 
-<img src="https://i.imgur.com/65Ub2F6.jpg" alt="project-screenshot" width="700" height="400/">
-
-<img src="https://i.imgur.com/OQAfv8L.jpg" alt="project-screenshot" width="700" height="400/">
+<img src="https://i.imgur.com/65Ub2F6.jpg" alt="project-screenshot"  height="450/">
+<img src="https://i.imgur.com/OQAfv8L.jpg" alt="project-screenshot"  height="450/">
 
 ## 🪡Objective
 
@@ -41,7 +40,7 @@ Create a dynamic and responsive user registration form with client-side validati
 
 ## 🪡How to Use
 
-1. Clone the repository: `git clone https://github.com/GowthamXeno/registration-form.git`
+1. Clone the repository: `git clone https://github.com/GowthamXeno/Form-Validation-Project.git`
 2. Open `index.html` in your web browser.
 
 
