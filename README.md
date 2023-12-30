@@ -21,8 +21,8 @@
 <h2>Project Screenshots:</h2>
 
 
-<img src="https://i.imgur.com/65Ub2F6.jpg" alt="project-screenshot"  height="450/">
-<img src="https://i.imgur.com/OQAfv8L.jpg" alt="project-screenshot"  height="450/">
+<img src="https://i.imgur.com/65Ub2F6.jpg" alt="project-screenshot"  style="max-width:100%;height:auto;">
+<img src="https://i.imgur.com/OQAfv8L.jpg" alt="project-screenshot"  style ="max-width:100%;height:auto;">
 
 ## 🪡Objective
 
